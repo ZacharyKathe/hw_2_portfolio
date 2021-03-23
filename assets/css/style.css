@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color: rgb(61, 62, 63);
+    color: rgb(16, 230, 230);
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+
+
+.subhead {
+    background-image: url("/assets/images/sub_header.JPG");
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.subhead p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+    font-size: 18px;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 200%;
+    padding-left: 70px;
+    color: rgb(74, 87, 97);
+    background-color: rgb(16, 230, 230);
+}
+.info {
+    display: flex;
+    text-align: center;
+    color: rgb(15, 15, 15);
+    background-color: wheat;
+    padding: 2px;
+    margin: 2px;
+    border-bottom: grey solid;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: rgb(16, 230, 230);
+    
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(
+        rgb(73, 78, 78) 10%,
+        rgb(16, 230, 230) 100%
+    );
+}
+
+aside {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-end;   
+  }
+
+aside h2 {
+      border-width: 4px;
+      color: rgb(73, 78, 78);
+      border-color: rgb(147, 153, 153);
+      border-right-style: groove;
+      border-top-style: ridge;
+      font-size: 24px;
+
+  }
+#light {
+    border-width: 4px;
+      color: rgb(16, 230, 230);
+      border-color: rgb(16, 230, 230);
+      border-right-style: groove;
+      border-top-style: ridge;
+}
+
+
+.work {display: flex;
+         flex-direction: row;
+        }
+  
+
+
+section {
+    background-image: linear-gradient(
+        rgb(73, 78, 78) 10%,
+        rgb(16, 230, 230) 100%
+    );
+    flex: 3;
+    
+  }
+  
+.sample-img_1 {
+    background-image: url("/assets/images/app_creation.JPG");
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 4px solid;
+    border-color: rgb(74, 87, 97);
+
+}
+
+
+.sample-img_1 p {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 24px;
+    padding: 10px;
+    text-decoration: bold;
+}
+
+.sample-img_1 h6 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: bold;
+    }
+
+.sample-img_1:hover {
+    border-radius: 10% 10% 10% 0%;
+    opacity: 0.2px;
+
+}
+.sample-img_1 h6:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+    border-radius: 0px 0px 5px 0px;
+}
+
+.sample-img_1 p:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+}
+
+.sample-img_2 {
+    background-image: url("/assets/images/esri_story_map.JPG");
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 4px solid;
+    border-color: rgb(74, 87, 97);
+    margin: 3px;
+}
+
+.sample-img_2 p {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 20px;
+    padding: 2px;
+    text-decoration: bold;
+}
+
+.sample-img_2 h6 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 12px;
+    padding: 2px;
+    text-decoration: bold;
+}
+
+.sample-img_2:hover {
+    border-radius: 10% 10% 10% 0%;
+    opacity: 0.2px;
+
+}
+.sample-img_2 h6:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+    border-radius: 0px 0px 5px 0px;
+}
+
+.sample-img_2 p:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+}
+
+.sample-img_3 {
+    background-image: url("/assets/images/leaflet_map_2.JPG");
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 4px solid;
+    border-color: rgb(74, 87, 97);
+    margin: 3px;
+}
+
+.sample-img_3 p {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 20px;
+    padding: 2px;
+    text-decoration: bold;
+}
+
+.sample-img_3 h6 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 12px;
+    padding: 2px;
+    text-decoration: bold;
+}
+
+.sample-img_3:hover {
+    border-radius: 10% 10% 10% 0%;
+    opacity: 0.2px;
+
+}
+.sample-img_3 h6:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+    border-radius: 0px 0px 5px 0px;
+}
+
+.sample-img_3 p:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+}
+
+.sample-img_4 {
+    background-image: url("/assets/images/image_1.JPG");
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 4px solid;
+    border-color: rgb(74, 87, 97);
+    margin: 3px;
+}
+
+.sample-img_4 p {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 62, 63);
+    color: rgb(16, 230, 230);
+    font-size: 20px;
+    padding: 2px;
+    text-decoration: bold;
+}
+
+.sample-img_4 h6 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 12px;
+    padding: 2px;
+    text-decoration: bold;
+}
+
+.sample-img_4:hover {
+    border-radius: 10% 10% 10% 0%;
+    opacity: 0.2px;
+
+}
+.sample-img_4 h6:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+    border-radius: 0px 0px 5px 0px;
+}
+
+.sample-img_4 p:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+}
+
+.sample-img_5 {
+    background-image: url("/assets/images/python_code.JPG");
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 4px solid;
+    border-color: rgb(74, 87, 97);
+    margin: 3px;
+}
+
+.sample-img_5 p {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 20px;
+    padding: 2px;
+    text-decoration: bold;
+}
+.sample-img_5 h6 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 87, 97);
+    color: rgb(16, 230, 230);
+    font-size: 12px;
+    padding: 2px;
+    text-decoration: bold;
+}
+
+.sample-img_5:hover {
+    border-radius: 10% 10% 10% 0%;
+    opacity: 0.2px;
+
+}
+.sample-img_5 h6:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+    border-radius: 0px 0px 5px 0px;
+}
+
+.sample-img_5 p:hover {
+    background-color: rgb(16, 230, 230);
+    color: rgb(74, 87, 97);
+}

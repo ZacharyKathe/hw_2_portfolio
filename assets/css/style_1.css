@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  body{
+    margin:0;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    line-height:1.6;
+    background-color: seashell;
+  
+  }
+
+  .bottom p {
+    text-align: center;
+    color: rgba(240, 239, 245, 0.979);
+    background-color: rgba(49, 39, 92, 0.979);
+    padding: 10px 20px;
+  }
+
+  nav {
+    display: flex;
+    background-color: seashell;
+    justify-content: flex-end;
+  }
+  .link:hover {
+  color: teal;
+  opacity: 0.2}
+
+  nav a {
+    color:  rgba(49, 39, 92, 0.979);
+    padding: 14px 20px;
+    text-align: left;
+  }
+
+  .you_tube p {
+    display: flex;
+    justify-content: center;
+    background-color: seashell;
+    padding: 10px 20px;
+    color: teal;
+  }
+  
+  .teal_text {
+   color: teal; 
+   background-color: seashell;
+   text-align: center;
+   padding: 5px 20px;
+  }
+
+ .page_1_header{
+   background-color: rgba(49, 39, 92, 0.979);
+ }
+ 
+ .page_1_allign_left{
+   color: rgb(6, 125, 129);
+   text-align: left;
+   padding: 5px 20px;
+ }
+ .center {
+   text-align: center;
+ }
+  
+  .link {
+  border: 2px solid teal;
+  background-color: white;
+  padding: 10px;
+  margin:0px 10px}
+  
+  #mapid {
+    border: dotted teal;
+  }
+
+
+  .showcase {
+    background-image: url("/assets/images/showcase.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 0 20px;
+  }
+  #button {
+    font-size: 17px;
+    text-decoration: none;
+    color: #0a0a06;
+    border:#f3f1ee 5px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .showcase, .p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgb(232, 240, 240);
+  }
+
+  #video{
+    width: 100%;
+    height: 400px;
+    
+  }
