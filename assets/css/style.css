@@ -386,3 +386,30 @@ section {
     background-color: rgb(16, 230, 230);
     color: rgb(74, 87, 97);
 }
+
+@media screen and (max-width: 992px) {
+    header {
+      flex-direction: column;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #cfc9c9;
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    main {
+      background-color: #cfc9c9;
+      flex-direction: column;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
