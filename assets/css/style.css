@@ -75,7 +75,7 @@ h1 {
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
+    
 }
 
 nav a {
@@ -403,7 +403,8 @@ section {
   @media screen and (max-width: 768px) {
     main {
       background-color: #cfc9c9;
-      flex-direction: column;
+      flex-direction: row;
+    
     }
   }
   
@@ -413,3 +414,18 @@ section {
       background-color: #8ac4ff;
     }
   }
+
+  @media screen and (max-width: 576px) {
+    ul {
+      background-color: #eaedf1;
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    nav ul {
+      background-color: #eaedf1;
+      flex-direction: column;
+    }
+  }
+
