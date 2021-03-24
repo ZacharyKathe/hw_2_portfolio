@@ -75,10 +75,10 @@ h1 {
 #top {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    
-    
 }
+
+    
+
 
 nav a {
     color: rgb(16, 230, 230);
